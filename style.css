@@ -65,10 +65,10 @@ footer img {
 }
 
 .image-container{
-    height: 30vh;
-    width: 20vw;
+    height: 200px;
+    width: 300px;
     background-color: #505FF9;
-    margin: 2rem;
+    margin: 1rem;
     color: #fff;
     border: solid black 1px;
     display: flex;
@@ -84,4 +84,10 @@ footer {
     justify-content: space-around;
 }
 
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 /* CODE YOUR FLEXBOXES HERE */
