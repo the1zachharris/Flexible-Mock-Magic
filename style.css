@@ -1,13 +1,15 @@
 /* BASE STYLES */
 * {
     font-family: sans-serif;
-    font-size: 20px
+    font-size: 20px;
 }
 .navbar {
     width: 100vw;
     background-color: #59D9A1;
     padding-left: 30px;
     padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
 }
   
 .logo {
@@ -16,6 +18,10 @@
   
 .nav-links {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
 }
   
 .nav-item a {
