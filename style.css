@@ -48,16 +48,20 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 footer img {
     width: 3%;
+    
 }
 
 .flex-main {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
 }
 
 .image-container{
@@ -76,6 +80,8 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
