@@ -4,10 +4,8 @@
     font-size: 20px;
 }
 .navbar {
-    width: 100vw;
     background-color: #59D9A1;
-    padding-left: 30px;
-    padding-right: 10px;
+    padding-left: 4px;
     display: flex;
     justify-content: space-between;
 }
@@ -19,13 +17,10 @@
 .nav-links {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: end;
+    
 }
-  
 .nav-item a {
-    display: inline-block;
+    display: flex;
     padding: 10px 15px;
     text-decoration: none;
     color: white;
@@ -53,16 +48,20 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 footer img {
     width: 3%;
+    
 }
 
 .flex-main {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
 }
 
 .image-container{
@@ -81,6 +80,8 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
